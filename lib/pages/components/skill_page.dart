@@ -50,7 +50,7 @@ class SkillPage extends StatelessWidget {
               Expanded(
                 flex: ScreenHelper.isMobile(context) ? 0 : 2,
                 child: Image.asset(
-                  "assets/images/gw2.png",
+                  "build/flutter_assets/assets/images/gw2.png",
                   width: 300.0,
                 ),
               ),

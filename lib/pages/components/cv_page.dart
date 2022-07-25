@@ -8,25 +8,25 @@ import 'package:responsive_framework/responsive_framework.dart';
 final List<CvItems> cvItem = [
   CvItems(
     title: "COLLABS",
-    imagePath: "assets/images/design.png",
+    imagePath: "build/flutter_assets/assets/images/design.png",
     subtitle:
         "A full stack allround designer thay may or may not include a guide for specific creative",
   ),
   CvItems(
     title: "DEVELOP",
-    imagePath: "assets/images/develop.png",
+    imagePath: "build/flutter_assets/assets/images/develop.png",
     subtitle:
         "A full stack allround developer thay may or may not include a guide for specific creative",
   ),
   CvItems(
     title: "WRITE",
-    imagePath: "assets/images/write.png",
+    imagePath: "build/flutter_assets/assets/images/write.png",
     subtitle:
         "A full stack allround writer thay may or may not include a guide for specific creative",
   ),
   CvItems(
     title: "TESTING",
-    imagePath: "assets/images/promote.png",
+    imagePath: "build/flutter_assets/assets/images/promote.png",
     subtitle:
         "A full stack allround promoter thay may or may not include a guide for specific creative",
   ),

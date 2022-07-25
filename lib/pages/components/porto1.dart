@@ -33,7 +33,7 @@ class Portofo1 extends StatelessWidget {
                   Expanded(
                     flex: constraints.maxWidth > 720.0 ? 1 : 0,
                     child: Image.asset(
-                      "images/instagram.gif",
+                      "build/flutter_assets/images/instagram.gif",
                       // Set width for image on smaller screen
                       width: constraints.maxWidth > 720.0 ? null : 350.0,
                     ),
