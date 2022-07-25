@@ -64,7 +64,6 @@ class Navbar extends StatelessWidget {
 List<HeaderItem> headerItems = [
   HeaderItem(title: "HOME", onTap: () {}),
   HeaderItem(title: "MY INTRO", onTap: () {}),
-  HeaderItem(title: "SERVICES", onTap: () {}),
   HeaderItem(title: "PORTOFOLIO", onTap: () {}),
   HeaderItem(title: "HIRE ME", onTap: () {}, isButton: true),
 ];

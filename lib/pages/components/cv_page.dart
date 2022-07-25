@@ -8,25 +8,25 @@ import 'package:responsive_framework/responsive_framework.dart';
 final List<CvItems> cvItem = [
   CvItems(
     title: "COLLABS",
-    imagePath: "images/design.png",
+    imagePath: "assets/images/design.png",
     subtitle:
         "A full stack allround designer thay may or may not include a guide for specific creative",
   ),
   CvItems(
     title: "DEVELOP",
-    imagePath: "images/develop.png",
+    imagePath: "assets/images/develop.png",
     subtitle:
         "A full stack allround developer thay may or may not include a guide for specific creative",
   ),
   CvItems(
     title: "WRITE",
-    imagePath: "images/write.png",
+    imagePath: "assets/images/write.png",
     subtitle:
         "A full stack allround writer thay may or may not include a guide for specific creative",
   ),
   CvItems(
     title: "TESTING",
-    imagePath: "images/promote.png",
+    imagePath: "assets/images/promote.png",
     subtitle:
         "A full stack allround promoter thay may or may not include a guide for specific creative",
   ),

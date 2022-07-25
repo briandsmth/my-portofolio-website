@@ -215,7 +215,7 @@ List<CarouselItemModel> carouselItems = List.generate(
       ],
     ),
     image: Image.asset(
-      "images/gw.png",
+      "assets/images/gw.png",
       fit: BoxFit.contain,
     ),
   ),

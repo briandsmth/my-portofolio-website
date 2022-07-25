@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mywebsite_portofolio/pages/components/carousel.dart';
+import 'package:mywebsite_portofolio/pages/components/intro.dart';
 import 'package:mywebsite_portofolio/pages/components/cv_page.dart';
 import 'package:mywebsite_portofolio/pages/components/footer.dart';
 import 'package:mywebsite_portofolio/pages/components/header_navbar.dart';
