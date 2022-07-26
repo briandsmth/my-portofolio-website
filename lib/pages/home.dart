@@ -4,6 +4,7 @@ import 'package:mywebsite_portofolio/pages/components/cv_page.dart';
 import 'package:mywebsite_portofolio/pages/components/footer.dart';
 import 'package:mywebsite_portofolio/pages/components/header_navbar.dart';
 import 'package:mywebsite_portofolio/pages/components/porto1.dart';
+import 'package:mywebsite_portofolio/pages/components/porto2.dart';
 import 'package:mywebsite_portofolio/pages/components/skill_page.dart';
 import 'package:mywebsite_portofolio/pages/components/sponsor.dart';
 import 'package:mywebsite_portofolio/utils/constants.dart';
@@ -78,6 +79,7 @@ class Home extends StatelessWidget {
           const SizedBox(
               height: 70.0,
             ),
+          const Portofo2(),
           const SkillPage(),
           const Sponsors(),
           const Footer(),
