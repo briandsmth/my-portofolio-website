@@ -4,11 +4,11 @@ import 'package:mywebsite_portofolio/utils/screen_helper.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 final List<String> sponsorLogo = [
-  "build/flutter_assets/assets/images/flutter-logo.png",
-  "build/flutter_assets/assets/images/dart-logo.png",
-  "build/flutter_assets/assets/images/android_logo.png",
-  "build/flutter_assets/assets/images/ios-logo.png",
-  "build/flutter_assets/assets/images/vscode-logo.png",
+  "images/flutter-logo.png",
+  "images/dart-logo.png",
+  "images/android_logo.png",
+  "images/ios-logo.png",
+  "images/vscode-logo.png",
 ];
 
 class Sponsors extends StatelessWidget {

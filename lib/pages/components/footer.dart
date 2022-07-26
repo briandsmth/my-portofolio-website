@@ -7,22 +7,22 @@ import 'package:responsive_framework/responsive_framework.dart';
 
 final List<FooterItem> footerItems = [
   FooterItem(
-    iconPath: "build/flutter_assets/assets/images/github-logo.png",
+    iconPath: "images/github-logo.png",
     title: "GITHUB",
     text1: "https://github.com/briandsmth",
   ),
   FooterItem(
-    iconPath: "build/flutter_assets/assets/images/phone.png",
+    iconPath: "images/phone.png",
     title: "PHONE",
     text1: "+62 813-3977-1941",
   ),
   FooterItem(
-    iconPath: "build/flutter_assets/assets/images/email.png",
+    iconPath: "images/email.png",
     title: "EMAIL",
     text1: "briandsmith22@gmail.com",
   ),
   FooterItem(
-    iconPath: "build/flutter_assets/assets/images/whatsapp.png",
+    iconPath: "images/whatsapp.png",
     title: "WHATSAPP",
     text1: "+62 813-3977-1941",
   )

@@ -215,7 +215,7 @@ List<CarouselItemModel> carouselItems = List.generate(
       ],
     ),
     image: Image.asset(
-      "flutter_assets/assets/images/gw.png",
+      "images/gw.png",
       fit: BoxFit.contain,
     ),
   ),
