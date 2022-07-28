@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:mywebsite_portofolio/utils/constants.dart';
 import 'package:mywebsite_portofolio/utils/screen_helper.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+import 'dart:html' as html;
 
 class Portofo1 extends StatelessWidget {
   const Portofo1({Key? key}) : super(key: key);
@@ -64,18 +65,18 @@ class Portofo1 extends StatelessWidget {
                             fontSize: 35.0,
                           ),
                         ),
-                        SizedBox(
+                        const SizedBox(
                           height: 10.0,
                         ),
-                        Text(
-                          "This is a random text about the project, I should have used the regular lorem ipsum text, but I am too lazy to search for that. This should be long enough",
+                        const Text(
+                          "This project was made using google firebase as a backend for authentication and storage data. for source code you can click button below",
                           style: TextStyle(
                             color: kCaptionColor,
                             height: 1.5,
                             fontSize: 15.0,
                           ),
                         ),
-                        SizedBox(
+                        const SizedBox(
                           height: 25.0,
                         ),
                         Row(
@@ -88,12 +89,16 @@ class Portofo1 extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 height: 48.0,
-                                padding: EdgeInsets.symmetric(
+                                padding: const EdgeInsets.symmetric(
                                   horizontal: 28.0,
                                 ),
                                 child: TextButton(
-                                  onPressed: () {},
-                                  child: Center(
+                                  onPressed: () {
+                                    html.window.open(
+                                        'https://github.com/briandsmth/Full-stack-Instagram-Clone-with-Flutter-',
+                                        'Instagram Clone');
+                                  },
+                                  child: const Center(
                                     child: Text(
                                       "EXPLORE MORE",
                                       style: TextStyle(
@@ -109,32 +114,32 @@ class Portofo1 extends StatelessWidget {
                             SizedBox(
                               width: 10.0,
                             ),
-                            MouseRegion(
-                              cursor: SystemMouseCursors.click,
-                              child: Container(
-                                decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(8.0),
-                                  border: Border.all(
-                                    color: kPrimaryColor,
-                                  ),
-                                ),
-                                height: 48.0,
-                                padding: EdgeInsets.symmetric(horizontal: 28.0),
-                                child: TextButton(
-                                  onPressed: () {},
-                                  child: Center(
-                                    child: Text(
-                                      "NEXT APP",
-                                      style: TextStyle(
-                                        color: kPrimaryColor,
-                                        fontSize: 13.0,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            )
+                            // MouseRegion(
+                            //   cursor: SystemMouseCursors.click,
+                            //   child: Container(
+                            //     decoration: BoxDecoration(
+                            //       borderRadius: BorderRadius.circular(8.0),
+                            //       border: Border.all(
+                            //         color: kPrimaryColor,
+                            //       ),
+                            //     ),
+                            //     height: 48.0,
+                            //     padding: EdgeInsets.symmetric(horizontal: 28.0),
+                            //     child: TextButton(
+                            //       onPressed: () {},
+                            //       child: Center(
+                            //         child: Text(
+                            //           "NEXT APP",
+                            //           style: TextStyle(
+                            //             color: kPrimaryColor,
+                            //             fontSize: 13.0,
+                            //             fontWeight: FontWeight.bold,
+                            //           ),
+                            //         ),
+                            //       ),
+                            //     ),
+                            //   ),
+                            // )
                           ],
                         )
                       ],

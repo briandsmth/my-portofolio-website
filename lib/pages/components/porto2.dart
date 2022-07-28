@@ -1,10 +1,9 @@
-import 'dart:js';
-
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mywebsite_portofolio/utils/constants.dart';
 import 'package:mywebsite_portofolio/utils/screen_helper.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+import 'dart:html' as html;
 
 class Portofo2 extends StatelessWidget {
   const Portofo2({Key? key}) : super(key: key);
@@ -61,7 +60,7 @@ class Portofo2 extends StatelessWidget {
                           height: 10.0,
                         ),
                         Text(
-                          "This is a random text about the project, I should have used the regular lorem ipsum text, but I am too lazy to search for that. This should be long enough",
+                          "This project was a user interface design for bank dashboard. for the source code you can click button below",
                           style: TextStyle(
                             color: kCaptionColor,
                             height: 1.5,
@@ -85,7 +84,9 @@ class Portofo2 extends StatelessWidget {
                                   horizontal: 28.0,
                                 ),
                                 child: TextButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    html.window.open('https://github.com/briandsmth/Responsive_Dashboard_Bank_Flutter', 'Bank Dashboard');
+                                  },
                                   child: Center(
                                     child: Text(
                                       "EXPLORE MORE",
@@ -102,32 +103,32 @@ class Portofo2 extends StatelessWidget {
                             SizedBox(
                               width: 10.0,
                             ),
-                            MouseRegion(
-                              cursor: SystemMouseCursors.click,
-                              child: Container(
-                                decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(8.0),
-                                  border: Border.all(
-                                    color: kPrimaryColor,
-                                  ),
-                                ),
-                                height: 48.0,
-                                padding: EdgeInsets.symmetric(horizontal: 28.0),
-                                child: TextButton(
-                                  onPressed: () {},
-                                  child: Center(
-                                    child: Text(
-                                      "NEXT APP",
-                                      style: TextStyle(
-                                        color: kPrimaryColor,
-                                        fontSize: 13.0,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            )
+                            // MouseRegion(
+                            //   cursor: SystemMouseCursors.click,
+                            //   child: Container(
+                            //     decoration: BoxDecoration(
+                            //       borderRadius: BorderRadius.circular(8.0),
+                            //       border: Border.all(
+                            //         color: kPrimaryColor,
+                            //       ),
+                            //     ),
+                            //     height: 48.0,
+                            //     padding: EdgeInsets.symmetric(horizontal: 28.0),
+                            //     child: TextButton(
+                            //       onPressed: () {},
+                            //       child: Center(
+                            //         child: Text(
+                            //           "NEXT APP",
+                            //           style: TextStyle(
+                            //             color: kPrimaryColor,
+                            //             fontSize: 13.0,
+                            //             fontWeight: FontWeight.bold,
+                            //           ),
+                            //         ),
+                            //       ),
+                            //     ),
+                            //   ),
+                            // )
                           ],
                         ),
                         SizedBox(

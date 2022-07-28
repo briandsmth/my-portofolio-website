@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:mywebsite_portofolio/pages/components/intro.dart';
 import 'package:mywebsite_portofolio/pages/components/cv_page.dart';
 import 'package:mywebsite_portofolio/pages/components/footer.dart';
 import 'package:mywebsite_portofolio/pages/components/header_navbar.dart';
 import 'package:mywebsite_portofolio/pages/components/porto1.dart';
 import 'package:mywebsite_portofolio/pages/components/porto2.dart';
+import 'package:mywebsite_portofolio/pages/components/porto3.dart';
 import 'package:mywebsite_portofolio/pages/components/skill_page.dart';
 import 'package:mywebsite_portofolio/pages/components/sponsor.dart';
 import 'package:mywebsite_portofolio/utils/constants.dart';
@@ -75,11 +77,28 @@ class Home extends StatelessWidget {
           //   height: 20.0,
           // ),
           const CvPage(),
+          Center(
+            child: Text(
+              'SOME PORTOFOLIO',
+              style: GoogleFonts.oswald(
+                color: kPrimaryColor,
+                fontWeight: FontWeight.w900,
+                fontSize: 35.0,
+              ),
+            ),
+          ),
           const Portofo1(),
           const SizedBox(
-              height: 70.0,
-            ),
+            height: 70.0,
+          ),
           const Portofo2(),
+          const SizedBox(
+            height: 70.0,
+          ),
+          const Portofo3(),
+          const SizedBox(
+            height: 70.0,
+          ),
           const SkillPage(),
           const Sponsors(),
           const Footer(),

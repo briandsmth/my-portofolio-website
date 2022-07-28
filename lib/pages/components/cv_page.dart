@@ -4,31 +4,28 @@ import 'package:mywebsite_portofolio/models/cv_item.dart';
 import 'package:mywebsite_portofolio/utils/constants.dart';
 import 'package:mywebsite_portofolio/utils/screen_helper.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+import 'dart:html' as html;
 
 final List<CvItems> cvItem = [
   CvItems(
     title: "COLLABS",
     imagePath: "assets/images/design.png",
-    subtitle:
-        "A full stack allround designer thay may or may not include a guide for specific creative",
+    subtitle: "",
   ),
   CvItems(
     title: "DEVELOP",
     imagePath: "assets/images/develop.png",
-    subtitle:
-        "A full stack allround developer thay may or may not include a guide for specific creative",
+    subtitle: "",
   ),
   CvItems(
     title: "WRITE",
     imagePath: "assets/images/write.png",
-    subtitle:
-        "A full stack allround writer thay may or may not include a guide for specific creative",
+    subtitle: "",
   ),
   CvItems(
     title: "TESTING",
     imagePath: "assets/images/promote.png",
-    subtitle:
-        "A full stack allround promoter thay may or may not include a guide for specific creative",
+    subtitle: "",
   ),
 ];
 
@@ -66,7 +63,11 @@ class CvPage extends StatelessWidget {
                   ),
                 ),
                 GestureDetector(
-                  onTap: () {},
+                  onTap: () {
+                    html.window.open(
+                        'https://drive.google.com/file/d/1Y191gjoDlAx-Ct_X96mlKb454xUw-MOT/view?usp=sharing',
+                        'CV Febrian Mebiyantara');
+                  },
                   child: MouseRegion(
                     cursor: SystemMouseCursors.click,
                     child: Text(
@@ -128,9 +129,9 @@ class CvPage extends StatelessWidget {
                             )
                           ],
                         ),
-                        const SizedBox(
-                          height: 15.0,
-                        ),
+                        // const SizedBox(
+                        //   height: 15.0,
+                        // ),
                         Text(
                           cvItem[index].subtitle,
                           style: const TextStyle(
